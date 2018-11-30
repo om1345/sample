@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>パスワード生成</title>
+  <link rel="stylesheet" type="text/css" href="product36.css">
+</head>
+
+<body>
+  <div class="container">
+    <p><input type="text" id = "result"></p>
+    <p><div id="btn">パスワード生成</div></p>
+    <fieldset>
+      <legend>設定</legend>
+      <p>文字数(<span id="label">8</span>): <input type="range" id="slider" value="8" min="4" max="20"></p>
+      <p>
+        大文字: <input type="checkbox" id="upper">
+        数字: <input type="checkbox" id="number">
+      </p>
+    </fieldset>
+  </div>
+  <script src="product36.js"></script>
+</body>
+
+</html>

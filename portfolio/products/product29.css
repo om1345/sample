@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+}
+
+.panel {
+  width: 500px;
+}
+
+.question {
+  border-bottom: solid 1px white;
+  background-color: #00BCD4;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.answer {
+  border: solid 1px Silver;
+  margin: 0px;
+  padding: 10px;
+  display: none;
+}
